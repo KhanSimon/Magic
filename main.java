@@ -5,17 +5,15 @@ public class Main {
 
     public static void main(String[] args) {
 
-    Player player1 = new Player();
-    Player player2 = new Player();
+    //instancation des joueurs
+    Player player1 = new Player("Simon", 1);
+    Player player2 = new Player("Eliot", 2);
 
 
-    System.out.println("Bienvenue joueur 1, vous avez ");
-    System.out.println(player1.pointlife);
-    System.out.println("points de vie");
-
-    System.out.println("Bienvenue joueur 2, vous avez ");
-    System.out.println(player2.pointlife);
-    System.out.println("points de vie");
+    //message de bienvenue
+    System.out.printf("Bienvenue %s, vous avez %d points de vie, vous êtes le joueur n°%d \n", player1.name, player1.pointlife, player1.playernumber);
+    System.out.printf("Bienvenue %s, vous avez %d points de vie, vous êtes le joueur n°%d \n", player2.name, player2.pointlife, player2.playernumber);
+  
 
     }
 }
