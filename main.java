@@ -15,5 +15,6 @@ public class Main {
     System.out.printf("Bienvenue %s, vous avez %d points de vie, vous êtes le joueur n°%d \n", player2.name, player2.pointlife, player2.playernumber);
   
 
+    
     }
 }
