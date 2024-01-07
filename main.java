@@ -2,7 +2,7 @@
 
 public class Main {
     
-
+    //int[6] cout{}
     public static void main(String[] args) {
 
     //instancation des joueurs
@@ -15,6 +15,13 @@ public class Main {
     System.out.printf("Bienvenue %s, vous avez %d points de vie, vous êtes le joueur n°%d \n", player2.name, player2.pointlife, player2.playernumber);
   
 
+    String []coutbrouillard = {"7Incolore","9Vert","2Noir","3Rouge"};
+
+    Sort brouillard = new Sort(coutbrouillard);
+    for (int i : brouillard.cout)
+        System.out.println(i);
     
+
+
     }
 }
